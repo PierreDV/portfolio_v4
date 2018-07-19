@@ -19,16 +19,16 @@ html {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(img/peter1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(img/hero.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 75vh;
 }
 
 .hero-text-box {
   position: absolute;
   width: 1140px;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -40,5 +40,5 @@ h1 {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
-  word-spacing: 3px;
+  word-spacing: 4px;
 }
