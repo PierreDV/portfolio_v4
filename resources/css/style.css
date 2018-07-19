@@ -17,3 +17,21 @@ html {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(img/peter1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
