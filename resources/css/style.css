@@ -43,18 +43,26 @@ h1 {
 /* ------------------------------------ */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(img/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/hero.jpg);
   background-size: cover;
   background-position: center;
-  height: 75vh;
+  height: 100vh;
 }
 
-.hero-text-box {
+.hero-header {
   position: absolute;
   width: 1140px;
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.hero-summary {
+  position: absolute;
+  top: 40%;
+  width: 50%;
+  left: 20%;
+  color: #fff
 }
 
 .main-nav {
