@@ -108,3 +108,7 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid #f1c40f
 }
+
+.section-skills li {
+  list-style: none;
+}
