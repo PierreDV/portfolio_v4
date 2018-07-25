@@ -24,7 +24,7 @@ html {
 /* ------------------------------------ */
 
 .row {
-  max-width: 1140px;
+  max-width: 1185px;
   margin: 0 auto;
 }
 
@@ -32,13 +32,17 @@ section {
   margin: 75px 0; /* convert to padding if background colour needed */
 }
 
+.box {
+  padding: 1%;
+}
+
 /* -------- HEADINGS ------- */
 
 h1,
-h2 {
+h2,
+h3 {
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 h1 {
@@ -47,6 +51,7 @@ h1 {
   color: #fff;
   font-size: 240%;
   word-spacing: 4px;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -54,6 +59,12 @@ h2 {
   word-spacing: 2px;
   text-align: center;
   margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
 }
 
 h2:after {
@@ -122,12 +133,9 @@ header {
   border-bottom: 2px solid #f1c40f
 }
 
-.section-skills ul {
-  margin-top: 15px;
-}
-
 .section-skills li {
   list-style: none;
-  margin-top: 10px;
+  margin-top: 5px;
   padding-left: 15px;
+  font-size: 95%
 }
