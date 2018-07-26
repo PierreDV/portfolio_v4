@@ -40,7 +40,8 @@ section {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -65,6 +66,10 @@ h2 {
 h3 {
   font-size: 110%;
   margin-bottom: 15px;
+}
+
+h4 {
+  margin-bottom: 5px;
 }
 
 h2:after {
@@ -138,4 +143,12 @@ header {
   margin-top: 5px;
   padding-left: 15px;
   font-size: 95%
+}
+.job-section {
+  margin-bottom: 20px;
+}
+
+.job-section ul {
+  margin-top: 20px;
+  list-style: none;
 }
