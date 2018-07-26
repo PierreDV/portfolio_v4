@@ -152,3 +152,8 @@ header {
   margin-top: 20px;
   list-style: none;
 }
+
+.job-section li {
+  margin-bottom: 5px;
+}
+
