@@ -40,7 +40,6 @@ section {
 
 h1,
 h2,
-h3,
 h4 {
   font-weight: 300;
   text-transform: uppercase;
@@ -65,7 +64,7 @@ h2 {
 
 h3 {
   font-size: 110%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 h4 {
@@ -80,6 +79,10 @@ h2:after {
   width: 100px;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+strong {
+  font-size: 105%;
 }
 
 /* ------------------------------------ */
@@ -141,20 +144,20 @@ header {
 .section-skills li {
   list-style: none;
   margin-top: 5px;
-  padding-left: 15px;
   font-size: 95%
 }
-.job-section {
+
+.job-section, .education-section {
   margin-bottom: 20px;
 }
 
 .job-section ul {
-  margin-top: 20px;
+  margin-top: 5px;
   list-style: none;
 }
 
 .job-section li {
   margin-bottom: 5px;
-  padding-left: 15px;
+  font-size: 95%
 }
 
